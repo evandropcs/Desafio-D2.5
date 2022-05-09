@@ -205,6 +205,7 @@ ul.experiencia {
 /* Media Queries */
 
 @media (max-width: 720px){
+  
   body{
     position: absolute;
   }
@@ -233,7 +234,5 @@ ul.experiencia {
     width: 110px;
    
   }
-
-
 
 }
