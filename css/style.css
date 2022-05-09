@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 
 body {
@@ -200,4 +200,40 @@ ul.experiencia {
 
 .links{
   margin-top: 10px;
+}
+
+/* Media Queries */
+
+@media (max-width: 720px){
+  body{
+    position: absolute;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  .fonte--grande {
+    font-size: 2.5rem;
+  }
+  
+  .fonte--media {
+    font-size: 1.5rem;
+  }
+  .fonte--pequena {
+    font-size: 1.1rem;
+  }
+
+  .navigation li {
+    width: 135px;
+    font-size: 1.2rem;
+  }
+
+  .avatar {
+    width: 110px;
+   
+  }
+
+
+
 }
